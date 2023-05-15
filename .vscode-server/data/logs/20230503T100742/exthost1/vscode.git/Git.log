@@ -1,0 +1,17 @@
+2023-05-03 10:07:47.079 [info] Log level: Info
+2023-05-03 10:07:47.079 [info] Validating found git in: "git"
+2023-05-03 10:07:47.079 [info] Using git "2.34.1" from "git"
+2023-05-03 10:07:47.079 [info] > git rev-parse --show-toplevel [71ms]
+2023-05-03 10:07:47.091 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2023-05-03 10:07:47.106 [info] Open repository: /home/marc/TicTacToe
+2023-05-03 10:07:47.169 [info] No remotes found in the git config file.
+2023-05-03 10:07:47.195 [info] > git config --get commit.template [48ms]
+2023-05-03 10:07:47.196 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [22ms]
+2023-05-03 10:07:47.206 [info] > git status -z -uall [6ms]
+2023-05-03 10:07:47.218 [info] No remotes found in the git config file.
+2023-05-03 10:07:47.223 [info] > git config --get commit.template [6ms]
+2023-05-03 10:07:47.225 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-05-03 10:07:47.232 [info] > git status -z -uall [2ms]
+2023-05-03 10:07:47.629 [info] > git check-ignore -v -z --stdin [1ms]
+2023-05-03 10:07:47.648 [info] > git show --textconv :gits basics.text [29ms]
+2023-05-03 10:07:47.648 [info] > git ls-files --stage -- /home/marc/TicTacToe/gits basics.text [25ms]

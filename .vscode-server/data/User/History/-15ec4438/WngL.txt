@@ -1,0 +1,23 @@
+1. git checkout -b creates a new branch and switches to it
+2. Fast forward merges can only happen if there haven't been commits on the originol branch while the new one is being worked on.
+3. git checkout _branch_name would switch you to another branch 
+4. git checkout -D is the authoratative deletion of a branch
+5. Merge conflicts happen if there was a change to the same file across different branches and git can't determine which change to keep.
+
+_My_Man_Made_Conflict
+git init
+
+mk dir Here_We_Go
+touch TheChange.txt
+echo "HellOOOO" > TheChange.txt
+git add TheChange.txt
+git commit
+
+git checkout -b This_Will_Hurt
+
+echo "Goodbye" > TheChange.txt
+git add TheChange.txt
+git commit
+git checkout master
+
+git merge This_Will_Hurt

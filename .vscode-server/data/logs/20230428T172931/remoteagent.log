@@ -1,0 +1,14 @@
+2023-04-28 17:29:31.744 [info] 
+
+
+
+
+2023-04-28 17:29:31.784 [info] Extension host agent started.
+2023-04-28 17:29:31.876 [info] [127.0.0.1][4ae4c581][ManagementConnection] New connection established.
+2023-04-28 17:29:32.648 [info] [127.0.0.1][9ed82fe4][ExtensionHostConnection] New connection established.
+2023-04-28 17:29:32.659 [info] [127.0.0.1][9ed82fe4][ExtensionHostConnection] <450> Launched Extension Host Process.
+2023-04-28 18:47:34.336 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-28 21:34:18.963 [info] [127.0.0.1][9ed82fe4][ExtensionHostConnection] The client has reconnected.
+2023-04-28 21:34:19.177 [info] [127.0.0.1][4ae4c581][ManagementConnection] The client has reconnected.
+2023-04-28 21:34:33.124 [info] [127.0.0.1][4ae4c581][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-04-28 21:34:33.303 [info] [127.0.0.1][9ed82fe4][ExtensionHostConnection] <450> Extension Host Process exited with code: 0, signal: null.
