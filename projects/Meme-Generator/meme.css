@@ -1,0 +1,58 @@
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  label, input {
+    margin: 10px 0;
+  }
+  
+  input[type="url"] {
+    width: 100%;
+  }
+  
+  button {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .meme-container {
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+  }
+  
+  .meme-text {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-family: Impact, sans-serif;
+    color: white;
+    text-shadow: 2px 2px #000;
+    pointer-events: none;
+  }
+  
+  .top {
+    top: 0;
+  }
+  
+  .bottom {
+    bottom: 0;
+  }
+  
+  .delete-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: #F44336;
+    color: white;
+    border: none;
+  }
