@@ -1,0 +1,22 @@
+Part 1
+1. HTTP is shorthand for HyperText Transfer Protocol, which is a guideline for structure so that a server knows what to expect from what's getting sent.
+2. A URL is a universal resource locater, which serves as an address for online resources.
+3.DNS is short for domain name system, which serves as a contact book for urls and turns them into ip addresses.
+4. A query string lets you pass key/ value pairs into the url.
+5. GET is used to get a query response from the server, it doesn't change anything in the server but you will get information from the server and affect how it's presented to you. POST will give you a body response from the server and is used to make a change in the server, often giving data to the server.
+6. An HTTP request is a request from the client to the server which follows the HTTP protocol.
+7. An HTTP response is what the server send backs to the client, it depends on which verb was used when sending the request but will always follow the protocol.
+8. An HTTP header is gives more information about the response or request that was made. Some headers can include: content type. loacal date/ time, any cookie requests, any cahing info, and hostname. 
+9. When you type the url into the browser, it sets off a chain of events starting with the url gettting turned into an IP address using the DNS. The browser sends a request to the ip address including headers, the server sends back a response (usually html) where if everything worked out will have a status code of 200. The browser makes a dom element from that html and finds any other resources needed, where the browser will make seperate requests and receive responses from the server for each one. 
+
+Part 2
+These were the jokes I got back.{
+What does a pirate pay for his corn? A buccaneer!
+What did the pirate say on his 80th birthday? Aye Matey!
+Why couldn't the kid see the pirate movie? Because it was rated arrr!
+Why are pirates called pirates? Because they arrr!
+Why do pirates not know the alphabet? They always get stuck at "C".
+}
+
+This is the ip address for the site: 104.21.66.15:443.
+
