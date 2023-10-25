@@ -1,0 +1,45 @@
+Step 1:
+1. O(n)
+2.O(n)
+3. O(1)
+4. O(n^3)
+5. O(n)
+6. O(n)
+7. O(nlog(n))
+8. O(2^n)
+9. O(1)
+10. O(n^2)
+
+Step 2:
+logUpTo(n)
+Time complexity: O(n)
+
+logAtLeast10(n)
+Time Complexity: O(n)
+
+logAtMost10(n)
+Time Complexity: O(1)  (Because it'll only ever get up to 10 which is a constant, should not ever change how long it takes to execute)
+
+onlyElementsAtEvenIndex(array)
+Time Complexity: O(n)
+
+subtotals(n)
+Time Complexity: O(n^2)   (Because theres a nested loop inside a loop that both depend on the length of the array passed into the arguement, it has to execute over the array twice)
+
+vowelCount()
+Time Complexxity: O(n) 
+
+Step 3: 
+1. True
+2. True
+3. False
+4. O(n)
+5. O(n)
+6. O(n) (Depends on what the callback does)
+7. O(nlog(n))
+8. O(n)
+9. O(1)
+10. O(n)
+11. O(1)
+12. O(n)
+13. O(n)
